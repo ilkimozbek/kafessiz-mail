@@ -17,12 +17,7 @@ app.get('/', async function(req, res) {
     const subjects = ['beni bırak','kafese hayır']
     const subject = subjects[Math.floor(Math.random() * subjects.length)]
     
-    const bodies = ['Sayın yetkili,
-
-İnternet üzerinden otelinizin kullandığı yumurtaların eziyet dolu bir sistemle elde edildiğini öğrendim ve bu konudaki üzüntümü size bildirmek istedim. Lütfen bu eziyeti durdurun.
-
-Saygılarımla,
-']
+    const bodies = ['şikayetçiyim']
     const body = bodies[Math.floor(Math.random() * bodies.length)]
 
     let mail = `mailto:${address_1}?cc=${address_2}&bcc=${address_3}&subject=${subject}&body=${body}`

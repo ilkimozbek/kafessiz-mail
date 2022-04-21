@@ -10,7 +10,7 @@ const path = require('path');
 
 app.get('/', async function(req, res) {
     const anemon = ['oguz.akcura@anemonhotels.com', 'ismail.akcura@anemonhotels.com', 'hasim.akcura@anemonhotels.com', 'asli.akcura@anemonhotels.com','salim.yavas@anemonhotels.com', 'ugur.sahbaz@anemonhotels.com', 'aytekin.acikgoz@anemonhotels.com', 'taylan.sargin@anemonhotels.com']
-    const barut = ['birgul.akgul@baruthotels.com', 'mkurtulmus@baruthotels.com', 'sonen@baruthotels.com', 'turan.kaplan@baruthotels.com', 'ibrahim.yilmaz@baruthotels.com', 'onder.balci@baruthotels.com', 'binnur.dulger@baruthotels.com']
+    const barut = ['birgul.akgul@baruthotels.com', 'mkurtulmus@baruthotels.com', 'sonen@baruthotels.com', 'turan.kaplan@baruthotels.com', 'onder.balci@baruthotels.com', 'binnur.dulger@baruthotels.com']
     const crystal = ['tolgakilit@kilitgroup.com', 'turankilit@kilitgroup.com', 'necdetguven@crystalhotels.com.tr', ' ceo@crystalhotels.com.tr', 'adilgurkan@kilithg.com', 'fatihcelik@crystalhotels.com.tr', 'alperkarakas@crystalhotels.com.tr', 'melekyildiz@crystalhotels.com.tr']
     const kaya = ['burak.kaya@kayahotels.com.tr', 'doruk.kaya@kayahotels.com.tr', 'ufuk.karakus@kayahotels.com.tr', 'ali.kocak@kayahotels.com.tr', 'hasan.aykut@kayahotels.com.tr', 'sami.turkay@kayahotels.com.tr']
     const hotels = [anemon, barut, crystal, kaya]
